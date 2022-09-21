@@ -39,11 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 Stack(
                   children: [
                     Container(
-                      height: 320,
+                      height: 300,
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        color: Colors.black26,
+                        borderRadius: BorderRadius.circular(30),
                       ),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(30),
